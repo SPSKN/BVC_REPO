@@ -1,0 +1,7 @@
+What regulations, if any, do we need to follow?
+
+What are the competing systems doing different?
+
+How will users see the data from the system?
+
+What alerts or notifications do you want the system to generate?

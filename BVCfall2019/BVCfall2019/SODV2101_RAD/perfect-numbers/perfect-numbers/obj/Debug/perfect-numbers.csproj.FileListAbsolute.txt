@@ -1,0 +1,7 @@
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\perfect-numbers\perfect-numbers\bin\Debug\perfect-numbers.exe.config
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\perfect-numbers\perfect-numbers\bin\Debug\perfect-numbers.exe
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\perfect-numbers\perfect-numbers\bin\Debug\perfect-numbers.pdb
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\perfect-numbers\perfect-numbers\obj\Debug\perfect-numbers.csprojAssemblyReference.cache
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\perfect-numbers\perfect-numbers\obj\Debug\perfect-numbers.csproj.CoreCompileInputs.cache
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\perfect-numbers\perfect-numbers\obj\Debug\perfect-numbers.exe
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\perfect-numbers\perfect-numbers\obj\Debug\perfect-numbers.pdb

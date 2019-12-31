@@ -1,0 +1,10 @@
+C:\Users\laptop\Bow Valley\BVCfall2019\SODV2101_RAD\AreaOfTriangle\AreaOfTriangle\bin\Debug\AreaOfTriangle.exe.config
+C:\Users\laptop\Bow Valley\BVCfall2019\SODV2101_RAD\AreaOfTriangle\AreaOfTriangle\bin\Debug\AreaOfTriangle.exe
+C:\Users\laptop\Bow Valley\BVCfall2019\SODV2101_RAD\AreaOfTriangle\AreaOfTriangle\bin\Debug\AreaOfTriangle.pdb
+C:\Users\laptop\Bow Valley\BVCfall2019\SODV2101_RAD\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.csprojAssemblyReference.cache
+C:\Users\laptop\Bow Valley\BVCfall2019\SODV2101_RAD\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.Properties.Resources.resources
+C:\Users\laptop\Bow Valley\BVCfall2019\SODV2101_RAD\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.csproj.GenerateResource.cache
+C:\Users\laptop\Bow Valley\BVCfall2019\SODV2101_RAD\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.csproj.CoreCompileInputs.cache
+C:\Users\laptop\Bow Valley\BVCfall2019\SODV2101_RAD\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.exe
+C:\Users\laptop\Bow Valley\BVCfall2019\SODV2101_RAD\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.pdb
+C:\Users\laptop\Bow Valley\BVCfall2019\SODV2101_RAD\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.AreaOfTriangle.resources

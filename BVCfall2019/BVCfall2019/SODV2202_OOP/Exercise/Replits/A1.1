@@ -1,0 +1,145 @@
+
+using System;
+
+public class Book
+{
+  public string bookName;
+  public string bookAuthor;
+  public int bookIsbn;
+  bool isCheckedout;
+    public Book(string name, string author, int isbn)
+    {
+      this.bookName=name;
+      this.bookAuthor=author;
+      this.bookIsbn=isbn;
+      this.isCheckedout = false; //Not checkedout
+    }
+    public void CHKOUT()
+    {
+      if(isCheckedout == false) // the book is not checkedout yet
+      {
+        //Check out the book!
+        this.isCheckedout = true;
+        Console.WriteLine(this.bookName + ", This Book is checked out by you.");
+      }else
+      {
+        //Book is already checkedout
+        Console.WriteLine("This Book is already checkedout. " + this.bookName +", Sorry.");
+      }
+    }
+    public void Return
+    {
+      if(isCheckedout == true)
+      {
+        this.isCheckedout = false;
+      }else
+      {
+        Console.WriteLine("It is already returned.");
+      }
+    }
+    
+    
+}
+
+public class Library
+{
+    public Book[] Collection;
+
+    public Library(Book[] collection)
+    {
+        Collection = collection;
+    }
+
+    public void Find(string searchString)
+    {
+        string findBook = searchString.ToUpper();
+       // Console.WriteLine(findBook);
+        foreach(var b in Collection)
+		{
+			if(findBook == b.bookName.ToUpper())
+			{
+				Console.WriteLine(b.bookName + ", is here!");
+			}
+			
+			
+			 //Console.WriteLine(searchString + ", is not here!");
+			
+		}
+        
+  
+    }
+
+    public void Checkout(int isbn)
+    {
+		int isbnChkout = isbn;
+		foreach(var b in Collection)
+		{
+			if(isbnChkout == b.bookIsbn)
+			{
+				b.CHKOUT();
+			}
+		}
+      Console.WriteLine(isbn + " Checkout Book , "  );
+      
+    }
+    public void Return(int isbn)
+    {
+		int isbnReturn = isbn;
+		foreach(var b in Collection
+		{
+			b.Return();
+		}
+      Console.WriteLine(isbn + " Return Book");
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        
+        int bookCount = Int32.Parse(Console.ReadLine());
+        var collection = new Book[bookCount];
+        for (int i = 0; i < bookCount; ++i)
+        {
+            string name = Console.ReadLine();
+            string author = Console.ReadLine();
+            int isbn = Int32.Parse(Console.ReadLine());
+            collection[i] = new Book(name, author, isbn);
+        }
+        var library = new Library(collection);
+        string input;
+        
+        while ((input = Console.ReadLine()) != "exit")
+        {
+            if (input.StartsWith("find"))               ///Find
+            {
+                string searchString = input.Substring(5);
+                library.Find(searchString);
+                
+            }
+            else if(input.StartsWith("checkout"))       ///Checkout
+            {
+              // TODO Add checkout command
+            //      "checkout <isbn>"
+              string chkoutString = input.Substring(9);
+              int isbnChkout = Int32.Parse(chkoutString);
+              library.Checkout(isbnChkout);
+            }
+            else if(input.StartsWith("return"))        ///Return
+            {
+              // TODO add return command
+            //      "return <isbn>
+            string returnString = input.Substring(7);
+            int isbnReturn = Int32.Parse(returnString);
+            library.Return(isbnReturn);
+            }
+            else
+            {
+              Console.WriteLine("Try another book.");
+            }
+            
+            
+        }
+    }
+}

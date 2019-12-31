@@ -1,0 +1,17 @@
+{
+  "name": "utc-clock",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "moment-timezone": "^0.5.26",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "1.1.5",
+    "react-timezone": "^2.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  }
+}

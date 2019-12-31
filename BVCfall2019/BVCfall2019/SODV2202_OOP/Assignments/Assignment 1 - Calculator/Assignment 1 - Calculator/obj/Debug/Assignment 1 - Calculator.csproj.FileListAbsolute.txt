@@ -1,0 +1,7 @@
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2202_OOP\Assignment 1 - Calculator\Assignment 1 - Calculator\bin\Debug\Assignment 1 - Calculator.exe.config
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2202_OOP\Assignment 1 - Calculator\Assignment 1 - Calculator\bin\Debug\Assignment 1 - Calculator.exe
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2202_OOP\Assignment 1 - Calculator\Assignment 1 - Calculator\bin\Debug\Assignment 1 - Calculator.pdb
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2202_OOP\Assignment 1 - Calculator\Assignment 1 - Calculator\obj\Debug\Assignment 1 - Calculator.csprojAssemblyReference.cache
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2202_OOP\Assignment 1 - Calculator\Assignment 1 - Calculator\obj\Debug\Assignment 1 - Calculator.csproj.CoreCompileInputs.cache
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2202_OOP\Assignment 1 - Calculator\Assignment 1 - Calculator\obj\Debug\Assignment 1 - Calculator.exe
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2202_OOP\Assignment 1 - Calculator\Assignment 1 - Calculator\obj\Debug\Assignment 1 - Calculator.pdb

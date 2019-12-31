@@ -1,0 +1,21 @@
+/* 
+	rectangularbutton.css
+*/
+
+.rectangular-button { 
+	position:relative; min-width:3.5rem; height:2.5rem; padding:0.5rem; 
+	color:#303030; background-color:transparent; 
+	overflow:hidden; 
+	border:solid 1px #c0c0c0;
+	transition:all 0.1s;
+}
+
+.rectangular-button:hover { 
+	color:#ffffff; background-color:rgb(0,128,128);
+	border:solid 1px rgb(0,128,128);
+}
+
+.rectangular-button .caption { 
+	font-size:0.7rem; text-transform:uppercase; 
+}
+

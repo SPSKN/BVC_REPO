@@ -1,0 +1,10 @@
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\Brick_Breaker\Brick_Breaker\bin\Debug\Brick_Breaker.exe.config
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\Brick_Breaker\Brick_Breaker\bin\Debug\Brick_Breaker.exe
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\Brick_Breaker\Brick_Breaker\bin\Debug\Brick_Breaker.pdb
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\Brick_Breaker\Brick_Breaker\obj\Debug\Brick_Breaker.csprojAssemblyReference.cache
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\Brick_Breaker\Brick_Breaker\obj\Debug\Brick_Breaker.Form1.resources
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\Brick_Breaker\Brick_Breaker\obj\Debug\Brick_Breaker.Properties.Resources.resources
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\Brick_Breaker\Brick_Breaker\obj\Debug\Brick_Breaker.csproj.GenerateResource.cache
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\Brick_Breaker\Brick_Breaker\obj\Debug\Brick_Breaker.csproj.CoreCompileInputs.cache
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\Brick_Breaker\Brick_Breaker\obj\Debug\Brick_Breaker.exe
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\Brick_Breaker\Brick_Breaker\obj\Debug\Brick_Breaker.pdb

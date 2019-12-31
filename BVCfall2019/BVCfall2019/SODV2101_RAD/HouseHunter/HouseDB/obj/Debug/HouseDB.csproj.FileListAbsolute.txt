@@ -1,0 +1,12 @@
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseDB\bin\Debug\HouseHunterDB.mdf
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseDB\bin\Debug\HouseHunterDB_log.ldf
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseDB\bin\Debug\HouseDB.exe.config
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseDB\bin\Debug\HouseDB.exe
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseDB\bin\Debug\HouseDB.pdb
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseDB\obj\Debug\HouseDB.csprojAssemblyReference.cache
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseDB\obj\Debug\HouseDB.Properties.Resources.resources
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseDB\obj\Debug\HouseDB.csproj.GenerateResource.cache
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseDB\obj\Debug\HouseDB.csproj.CoreCompileInputs.cache
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseDB\obj\Debug\HouseDB.exe
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseDB\obj\Debug\HouseDB.pdb
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseDB\obj\Debug\HouseDB.Form1.resources

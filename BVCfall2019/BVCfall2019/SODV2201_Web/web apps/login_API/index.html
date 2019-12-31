@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<style>
+body{background-color: black;
+text-decoration-color: blanchedalmond;}
+p{color: blanchedalmond;}
+</style>
+<body>
+<p>Test Page</p>
+<p>Work on new features</p>
+</body>
+<!--  
+    *************************************************************************
+    TEST
+    BELOW
+    *************************************************************************
+-->
+<script>
+"use strict";  
+    const ApiEndpoint = "http://s28.ca/rest/bowspace/login";
+// Build the API request for the test (what filters will we send with the request?).
+const ApiRequest = {
+    EmailAddress:"adminalex@mybvc.ca",
+    Password:"1234",       // Any set of amenities.
+}
+// Send a POST request to the API endpoint, including the API request data.  This starts 
+// a "promise" -- which is a guarantee to return later with some information.  The promise
+// is complete when the API call finishes (or when it hits an error).
+let P = fetch(ApiEndpoint, { method:'POST', body:JSON.stringify(ApiRequest) });
+// When the promise resolves, convert the HTTP reply from JSON to a JS object and log it.
+P.then(ApiResponse => {
+        console.log(ApiResponse);
+        return(ApiResponse.json());
+        console.log("The ApiResponse  "+ApiResponse);
+    })
+    .then(Reply => {
+        let webToken = Reply.Jwt;
+        localStorage.setItem("Courier_Token",webToken)
+        if(localStorage.getItem("Courier_Token")!==undefined||(localStorage.getItem("Courier_Token")!==null))
+        {
+            var encodedData = window.atob(webToken);
+            localStorage.setItem("Dencoded_Token",encodedData)
+
+                
+
+        }
+        else
+        {localStorage.setItem("Dencoded_Token",null)}
+        
+    })   
+    .catch(e => {
+        console.error("Catch --> "); console.error(e);
+        console.log("This.Reply in the catch(e)=  "+this.Reply)
+        localStorage.setItem("Dencoded_Token",null)
+    });
+    console.log("Local Storage of the JWT: ***  "+localStorage.getItem("Courier_Token"))
+    console.log("Local Storage of the Dencoded JWT: ***  "+localStorage.getItem("Dencoded_Token"))
+
+    
+</script>
+</html>

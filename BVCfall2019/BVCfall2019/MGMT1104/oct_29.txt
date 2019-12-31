@@ -1,0 +1,22 @@
+///////////////
+temp
+lock status
+gas integrity
+live indicator
+unique id
+current flow
+live
+
+//////////////
+Auth
+Inventory --s/n--p/n
+Status --*C --Lock
+
+///////////////
+Work Flow guide
+
+//////////////
+damaged plug
+LOCKOUT TAGOUT
+
+/////////////

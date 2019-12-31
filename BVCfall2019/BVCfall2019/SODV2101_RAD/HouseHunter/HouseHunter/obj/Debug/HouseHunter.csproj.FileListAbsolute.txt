@@ -1,0 +1,6 @@
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseHunter\obj\Debug\HouseHunter.csprojAssemblyReference.cache
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseHunter\obj\Debug\HouseHunter.HouseHunter.resources
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseHunter\obj\Debug\HouseHunter.Properties.Resources.resources
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseHunter\obj\Debug\HouseHunter.csproj.GenerateResource.cache
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseHunter\obj\Debug\HouseHunter.csproj.CoreCompileInputs.cache
+C:\Users\knight\BVCfall2019\BVCfall2019\SODV2101_RAD\HouseHunter\HouseHunter\obj\Debug\HouseHunter.Form1.resources
