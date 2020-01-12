@@ -1,0 +1,367 @@
+state_abbrev,state_name,region,origin
+AK,Alaska,West,s
+AK,Anchorage,West,p
+AL,Alabama,South,s
+AL,Birmingham,South,p
+AL,Huntsville,South,p
+AL,Mobile,South,p
+AL,Montgomery,South,p
+AL,Tuscaloosa,South,p
+AR,Arkansas,South,s
+AR,Fort Smith,South,p
+AR,Little Rock,South,p
+AR,North Little Rock,South,p
+AZ,Apache Junction,West,p
+AZ,Arizona,West,s
+AZ,Gilbert,West,p
+AZ,Mesa,West,p
+AZ,Phoenix,West,p
+AZ,Tucson,West,p
+CA,Alhambra,West,p
+CA,Anaheim,West,p
+CA,Bakersfield,West,p
+CA,Burbank,West,p
+CA,California,West,s
+CA,Concord,West,p
+CA,Corona,West,p
+CA,Fresno,West,p
+CA,Fullerton,West,p
+CA,Garden Grove,West,p
+CA,Glendale,West,p
+CA,Huntington Beach,West,p
+CA,Inglewood,West,p
+CA,Irvine,West,p
+CA,Long Beach,West,p
+CA,Los Angeles,West,p
+CA,Modesto,West,p
+CA,Moreno Valley,West,p
+CA,Newport Beach,West,p
+CA,North Hollywood,West,p
+CA,Oakland,West,p
+CA,Palo Alto,West,p
+CA,Pasadena,West,p
+CA,Redwood City,West,p
+CA,Richmond,West,p
+CA,Riverside,West,p
+CA,Sacramento,West,p
+CA,Salinas,West,p
+CA,San Bernardino,West,p
+CA,San Diego,West,p
+CA,San Francisco,West,p
+CA,San Jose,West,p
+CA,San Mateo,West,p
+CA,Santa Ana,West,p
+CA,Santa Barbara,West,p
+CA,Santa Monica,West,p
+CA,Santa Rosa,West,p
+CA,Simi Valley,West,p
+CA,Stockton,West,p
+CA,Van Nuys,West,p
+CA,Ventura,West,p
+CA,Visalia,West,p
+CO,Arvada,West,p
+CO,Aurora,West,p
+CO,Colorado,West,s
+CO,Colorado Springs,West,p
+CO,Denver,West,p
+CO,Greeley,West,p
+CO,Littleton,West,p
+CO,Pueblo,West,p
+CT,Bridgeport,Northeast,p
+CT,Connecticut,Northeast,s
+CT,Hartford,Northeast,p
+CT,New Haven,Northeast,p
+CT,Norwalk,Northeast,p
+CT,Stamford,Northeast,p
+CT,Waterbury,Northeast,p
+CT,West Hartford,Northeast,p
+DE,Delaware,South,s
+DE,Wilmington,South,p
+FL,Boca Raton,South,p
+FL,Boynton Beach,South,p
+FL,Bradenton,South,p
+FL,Brooksville,South,p
+FL,Daytona Beach,South,p
+FL,Florida,South,s
+FL,Fort Lauderdale,South,p
+FL,Fort Myers,South,p
+FL,Fort Pierce,South,p
+FL,Gainesville,South,p
+FL,Hollywood,South,p
+FL,Jacksonville,South,p
+FL,Lake Worth,South,p
+FL,Lakeland,South,p
+FL,Largo,South,p
+FL,Miami,South,p
+FL,Miami Beach,South,p
+FL,Naples,South,p
+FL,Ocala,South,p
+FL,Orlando,South,p
+FL,Palm Bay,South,p
+FL,Panama City,South,p
+FL,Pensacola,South,p
+FL,Pinellas Park,South,p
+FL,Pompano Beach,South,p
+FL,Port Charlotte,South,p
+FL,Punta Gorda,South,p
+FL,Saint Petersburg,South,p
+FL,Tallahassee,South,p
+FL,Tampa,South,p
+FL,Vero Beach,South,p
+FL,West Palm Beach,South,p
+GA,Albany,South,p
+GA,Athens,South,p
+GA,Atlanta,South,p
+GA,Augusta,South,p
+GA,Cumming,South,p
+GA,Decatur,South,p
+GA,Gainesville,South,p
+GA,Georgia,South,s
+GA,Macon,South,p
+GA,Savannah,South,p
+GA,Valdosta,South,p
+HI,Hawaii,West,s
+HI,Honolulu,West,p
+IA,Davenport,Midwest,p
+IA,Des Moines,Midwest,p
+IA,Iowa,Midwest,s
+IA,Iowa City,Midwest,p
+IA,Sioux City,Midwest,p
+ID,Boise,West,p
+ID,Idaho,West,s
+ID,Idaho Falls,West,p
+IL,Carol Stream,Northeast,p
+IL,Champaign,Northeast,p
+IL,Chicago,Northeast,p
+IL,Decatur,Northeast,p
+IL,Illinois,Northeast,s
+IL,Naperville,Northeast,p
+IL,Peoria,Northeast,p
+IL,Rockford,Northeast,p
+IL,Springfield,Northeast,p
+IN,Anderson,Northeast,p
+IN,Bloomington,Northeast,p
+IN,Crawfordsville,Northeast,p
+IN,Evansville,Northeast,p
+IN,Fort Wayne,Northeast,p
+IN,Indiana,Northeast,s
+IN,Indianapolis,Northeast,p
+IN,South Bend,Northeast,p
+IN,Terre Haute,Northeast,p
+KS,Kansas,Midwest,s
+KS,Kansas City,Midwest,p
+KS,Shawnee Mission,Midwest,p
+KS,Topeka,Midwest,p
+KS,Wichita,Midwest,p
+KY,Frankfort,South,p
+KY,Kentucky,South,s
+KY,Lexington,South,p
+KY,Louisville,South,p
+LA,Alexandria,South,p
+LA,Baton Rouge,South,p
+LA,Lake Charles,South,p
+LA,Louisiana,South,s
+LA,Metairie,South,p
+LA,New Orleans,South,p
+LA,Shreveport,South,p
+MA,Boston,Northeast,p
+MA,Brockton,Northeast,p
+MA,Lynn,Northeast,p
+MA,Massachusetts,Northeast,s
+MA,Newton,Northeast,p
+MA,Springfield,Northeast,p
+MA,Woburn,Northeast,p
+MD,Annapolis,South,p
+MD,Baltimore,South,p
+MD,Bethesda,South,p
+MD,Hagerstown,South,p
+MD,Maryland,South,s
+MD,Silver Spring,South,p
+ME,Maine,Northeast,s
+MI,Detroit,Midwest,p
+MI,Farmington,Midwest,p
+MI,Flint,Midwest,p
+MI,Grand Rapids,Midwest,p
+MI,Kalamazoo,Midwest,p
+MI,Lansing,Midwest,p
+MI,Michigan,Midwest,s
+MI,Saginaw,Midwest,p
+MI,Southfield,Midwest,p
+MI,Troy,Midwest,p
+MI,Warren,Midwest,p
+MN,Duluth,Midwest,p
+MN,Maple Plain,Midwest,p
+MN,Minneapolis,Midwest,p
+MN,Minnesota,Midwest,s
+MN,Monticello,Midwest,p
+MN,Rochester,Midwest,p
+MN,Saint Paul,Midwest,p
+MN,Young America,Midwest,p
+MO,Columbia,Midwest,p
+MO,Independence,Midwest,p
+MO,Jefferson City,Midwest,p
+MO,Kansas City,Midwest,p
+MO,Missouri,Midwest,s
+MO,Saint Louis,Midwest,p
+MO,Springfield,Midwest,p
+MS,Biloxi,South,p
+MS,Gulfport,South,p
+MS,Jackson,South,p
+MS,Mississippi,South,s
+MT,Billings,West,p
+MT,Helena,West,p
+MT,Missoula,West,p
+MT,Montana,West,s
+NC,Charlotte,South,p
+NC,Durham,South,p
+NC,Fayetteville,South,p
+NC,Greensboro,South,p
+NC,High Point,South,p
+NC,North Carolina,South,s
+NC,Raleigh,South,p
+NC,Wilmington,South,p
+NC,Winston Salem,South,p
+ND,Fargo,Midwest,p
+ND,Grand Forks,Midwest,p
+ND,North Dakota,Midwest,s
+NE,Lincoln,Midwest,p
+NE,Nebraska,Midwest,s
+NE,Omaha,Midwest,p
+NH,New Hampshire,Northeast,s
+NH,Portsmouth,Northeast,p
+NJ,Jersey City,Northeast,p
+NJ,New Brunswick,Northeast,p
+NJ,New Jersey,Northeast,s
+NJ,Paterson,Northeast,p
+NJ,Trenton,Northeast,p
+NM,Albuquerque,West,p
+NM,New Mexico,West,s
+NM,Santa Fe,West,p
+NV,Carson City,West,p
+NV,Las Vegas,West,p
+NV,Nevada,West,s
+NV,Reno,West,p
+NY,Albany,Northeast,p
+NY,Bronx,Northeast,p
+NY,Brooklyn,Northeast,p
+NY,Buffalo,Northeast,p
+NY,Elmira,Northeast,p
+NY,Great Neck,Northeast,p
+NY,Hicksville,Northeast,p
+NY,Jamaica,Northeast,p
+NY,Mount Vernon,Northeast,p
+NY,New Hyde Park,Northeast,p
+NY,New York,Northeast,s
+NY,New York City,Northeast,p
+NY,Port Washington,Northeast,p
+NY,Rochester,Northeast,p
+NY,Schenectady,Northeast,p
+NY,Syracuse,Northeast,p
+OH,Akron,Midwest,p
+OH,Canton,Midwest,p
+OH,Cincinnati,Midwest,p
+OH,Cleveland,Midwest,p
+OH,Columbus,Midwest,p
+OH,Dayton,Midwest,p
+OH,Lima,Midwest,p
+OH,Ohio,Midwest,s
+OH,Springfield,Midwest,p
+OH,Toledo,Midwest,p
+OH,Youngstown,Midwest,p
+OK,Norman,South,p
+OK,Oklahoma,South,s
+OK,Oklahoma City,South,p
+OK,Tulsa,South,p
+OR,Beaverton,West,p
+OR,Oregon,West,s
+OR,Portland,West,p
+PA,Allentown,Northeast,p
+PA,Bethlehem,Northeast,p
+PA,Erie,Northeast,p
+PA,Harrisburg,Northeast,p
+PA,Lancaster,Northeast,p
+PA,New Castle,Northeast,p
+PA,Pennsylvania,Northeast,s
+PA,Philadelphia,Northeast,p
+PA,Pittsburgh,Northeast,p
+PA,Reading,Northeast,p
+PA,Scranton,Northeast,p
+PA,Wilkes Barre,Northeast,p
+RI,Rhode Island,Northeast,s
+SC,Anderson,South,p
+SC,Columbia,South,p
+SC,Florence,South,p
+SC,Greenville,South,p
+SC,Myrtle Beach,South,p
+SC,South Carolina,South,s
+SC,Spartanburg,South,p
+SD,Sioux Falls,Midwest,p
+SD,South Dakota,Midwest,s
+TN,Johnson City,South,p
+TN,Knoxville,South,p
+TN,Memphis,South,p
+TN,Murfreesboro,South,p
+TN,Nashville,South,p
+TN,Tennessee,South,s
+TX,Abilene,South,p
+TX,Amarillo,South,p
+TX,Arlington,South,p
+TX,Austin,South,p
+TX,Beaumont,South,p
+TX,College Station,South,p
+TX,Corpus Christi,South,p
+TX,Dallas,South,p
+TX,El Paso,South,p
+TX,Fort Worth,South,p
+TX,Houston,South,p
+TX,Humble,South,p
+TX,Irving,South,p
+TX,Lubbock,South,p
+TX,Mesquite,South,p
+TX,Midland,South,p
+TX,Odessa,South,p
+TX,San Angelo,South,p
+TX,San Antonio,South,p
+TX,Spring,South,p
+TX,Texas,South,s
+TX,Tyler,South,p
+TX,Waco,South,p
+TX,Wichita Falls,South,p
+UT,Ogden,West,p
+UT,Salt Lake City,West,p
+UT,Utah,West,s
+VA,Alexandria,South,p
+VA,Arlington,South,p
+VA,Ashburn,South,p
+VA,Charlottesville,South,p
+VA,Chesapeake,South,p
+VA,Fairfax,South,p
+VA,Hampton,South,p
+VA,Manassas,South,p
+VA,Norfolk,South,p
+VA,Reston,South,p
+VA,Richmond,South,p
+VA,Roanoke,South,p
+VA,Springfield,South,p
+VA,Sterling,South,p
+VA,Suffolk,South,p
+VA,Vienna,South,p
+VA,Virginia,South,s
+VA,Virginia Beach,South,p
+VT,Montpelier,Northeast,p
+VT,Vermont,Northeast,s
+WA,Everett,West,p
+WA,Lakewood,West,p
+WA,Olympia,West,p
+WA,Seattle,West,p
+WA,Spokane,West,p
+WA,Tacoma,West,p
+WA,Washington,West,s
+WI,Green Bay,Midwest,p
+WI,Madison,Midwest,p
+WI,Milwaukee,Midwest,p
+WI,Wisconsin,Midwest,s
+WV,Charleston,South,p
+WV,Huntington,South,p
+WV,West Virginia,South,s
+WY,Wyoming,West,s

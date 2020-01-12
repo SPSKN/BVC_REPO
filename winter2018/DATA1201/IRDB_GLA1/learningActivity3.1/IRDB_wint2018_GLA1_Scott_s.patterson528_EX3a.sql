@@ -1,0 +1,1 @@
+select first_name, last_name, team from people where state='CA' and shirt_or_hat='shirt' and team<>'blue'

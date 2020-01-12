@@ -1,0 +1,67 @@
+/*Course code : DATA1201
+Term/Year : Winter 2018
+Assignment code: A2
+Author : Scott Patterson
+BVC username : s.patterson528
+Date created : 2018-02-27
+Description :IRDB_Assignment #2 SQL FILE
+*/
+
+
+USE master;
+GO
+
+IF  DB_ID('IRDB_A2') IS NOT NULL
+    DROP DATABASE IRDB_A2;
+GO
+
+CREATE DATABASE IRDB_A2;
+GO
+
+USE IRDB_A2;
+
+
+
+
+CREATE TABLE Publications(
+	PublicationID		INT				PRIMARY KEY IDENTITY,
+	ResearchTitle		VARCHAR(120)	NOT NULL	UNIQUE,
+	AuthorFirstName		VARCHAR(60)		NOT NULL,
+	AuthorLastName		VARCHAR(60)		NOT NULL,
+	Abstract			VARCHAR(255)	DEFAULT NULL
+);
+CREATE TABLE Institutions(
+	InstitutionsID		INT				PRIMARY KEY IDENTITY,
+	InstitutionName		VARCHAR(120)	NOT NULL	UNIQUE,
+	SchoolName			VARCHAR(120)	NOT NULL	UNIQUE,
+	Country				VARCHAR(120)	NOT NULL,
+	InaugurationYear	INT				NOT NULL,
+);
+
+CREATE TABLE Researchers(
+	ResearcherID		INT				PRIMARY KEY	IDENTITY,
+	FirstName			VARCHAR(60)		NOT NULL,
+	LastName			VARCHAR(60)		NOT NULL,
+	SchoolName			VARCHAR(120)	REFERENCES Institutions (SchoolName),
+	CurrentPosition		VARCHAR(60)		DEFAULT NULL,
+	YearOfBirth			INT				NOT NULL,
+	HighestDegree		VARCHAR(60)		DEFAULT NULL	
+);
+CREATE TABLE Professors(
+	ProfID				INT				PRIMARY KEY IDENTITY,
+	ProfFirstName		VARCHAR(60)		NOT NULL,
+	ProfLastName		VARCHAR(60)		NOT NULL,
+	SchoolName			VARCHAR(120)	REFERENCES Institutions (SchoolName),
+	ResearchTitle		VARCHAR(120)	REFERENCES Publications (ResearchTitle),
+	GrantMoney			MONEY			NOT NULL,
+	ProjectStart		DATE			NOT NULL,
+	ProjectEnd			DATE			DEFAULT NULL
+);
+CREATE TABLE Collabs(
+	PaperID				INT				PRIMARY KEY IDENTITY,
+	ResearchTitle		VARCHAR(120)	REFERENCES Publications (ResearchTitle),
+	AuthorFirstName		VARCHAR(60)		NOT NULL,
+	AuthorLastName		VARCHAR(60)		NOT NULL,
+	CoAuthorFirstName	VARCHAR(60)		NOT NULL,
+	CoAuthorLastName	VARCHAR(60)		NOT NULL,
+);

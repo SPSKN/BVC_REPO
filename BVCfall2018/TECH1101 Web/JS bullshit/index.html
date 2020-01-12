@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="JavaScript">
+        <meta name="keywords" content="JS">
+        <meta name="author" content="Scott Patterson">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS STYLE SHEET -->
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>JavaScript Assignment</title>
+        
+    </head>
+    <body>
+    <br>
+        
+        <section style="float: left">
+            <!-- ADMIN INPUT -->
+            
+            <form onsubmit="AddItem()">
+                <fieldset>
+                <legend><h2>Admin</h2></legend>
+                <p>Add Item</p>    
+                <input type="text" name="itemName"><br>
+                <p>Add Value</p>
+                <!-- PRICE ITEMS -->
+                <input type="number" name=itemPrice><br>
+                <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+          
+        </section>
+        
+        
+        <section style="float: right">
+            <!-- RECEIPT -->
+
+            <form>
+             <fieldset>
+                <legend><h2>Receipt</h2></legend>
+                
+                </fieldset>
+            </form>
+        </section>
+            
+        
+        <section style="text-align: center">
+            <!-- CHECKOUT -->
+            <form onsubmit="AddItem()">
+                <fieldset>
+                <legend><h2>Checkout</h2></legend>
+                
+                </fieldset>
+            </form>
+        </section>
+    
+        
+        
+        <footer style="margin-top: 500pt">
+            <p>JavaScript</p>
+        </footer>
+    <script src="script.js"></script>
+    </body>
+
+
+
+</html>

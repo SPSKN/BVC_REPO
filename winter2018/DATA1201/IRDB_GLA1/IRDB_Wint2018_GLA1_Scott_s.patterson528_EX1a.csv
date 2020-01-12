@@ -1,0 +1,128 @@
+first_name,last_name,city,state,shirt_or_hat,quiz_points,team,signup,id_number,company
+Janice,Howell,Los Angeles,CA,hat,100,red,2015-02-07,9500,Homenick Group
+Wanda,Alvarez,Riverside,CA,shirt,20,blue,2016-06-06,9501,Nicolas Inc
+Laura,Olson,San Mateo,CA,shirt,90,green,2014-06-17,9502,Hoeger-O'Keefe
+Linda,Mitchell,Burbank,CA,shirt,70,green,2014-07-23,9514,Steuber LLC
+Robin,Hayes,Salinas,CA,shirt,10,red,2013-12-14,9518,"Cole, Cronin and Ruecker"
+Michelle,Montgomery,Salinas,CA,hat,70,blue,2016-06-01,9522,Treutel-Luettgen
+Janet,Rodriguez,Stockton,CA,hat,20,red,2015-01-11,9539,
+Barbara,Ortiz,Los Angeles,CA,shirt,100,green,2015-08-16,9541,"Smitham, Kertzmann and Leffler"
+Roy,Lopez,San Francisco,CA,hat,10,blue,2015-08-12,9543,Schneider and Sons
+Carlos,Gray,Garden Grove,CA,hat,80,red,2016-01-08,9548,Johnston-Labadie
+Sarah,Fernandez,Inglewood,CA,hat,20,green,2016-08-31,9550,"Marks, Stanton and Mann"
+Nicole,Banks,San Francisco,CA,shirt,50,red,2016-07-13,9569,Collins Group
+Brian,Palmer,Fresno,CA,shirt,30,red,2016-02-02,9572,
+Billy,Marshall,Salinas,CA,shirt,90,red,2015-09-17,9578,Heidenreich-Reynolds
+Philip,Kim,Sacramento,CA,hat,10,blue,2015-02-18,9594,"Rodriguez, Schroeder and Rippin"
+Jerry,Hawkins,San Francisco,CA,hat,10,blue,2014-04-25,9612,Schamberger Inc
+Albert,Lawson,San Francisco,CA,hat,80,blue,2016-10-21,9615,"Kessler, Stamm and Dickinson"
+Diana,Gonzales,San Jose,CA,hat,90,red,2014-04-10,9635,Koelpin Group
+Joyce,Payne,Santa Monica,CA,shirt,90,red,2016-03-13,9641,Predovic Inc
+Ernest,Mills,San Jose,CA,shirt,80,green,2015-02-17,9643,
+Ronald,Hughes,Los Angeles,CA,hat,100,green,2016-10-22,9655,"Langworth, Schaefer and Stanton"
+Walter,Hughes,Long Beach,CA,hat,100,green,2015-04-01,9661,"Robel, Langworth and Kemmer"
+Jeffrey,Dunn,San Diego,CA,shirt,40,blue,2016-07-08,9663,Goyette-Kerluke
+Deborah,Lee,San Francisco,CA,hat,50,green,2014-09-03,9679,Langosh and Sons
+Jesse,Stone,Oakland,CA,hat,70,blue,2016-05-19,9684,Kiehn Inc
+Louis,Cole,San Bernardino,CA,shirt,100,red,2014-06-04,9695,
+Keith,Harrison,San Diego,CA,shirt,100,red,2016-05-28,9701,Pouros Inc
+Judy,Ramirez,San Diego,CA,hat,100,red,2013-12-10,9707,Brekke Group
+Henry,Burns,Santa Ana,CA,shirt,60,green,2014-06-03,9724,Jerde-Yundt
+Randy,Wells,San Francisco,CA,hat,40,green,2014-02-22,9730,
+Susan,Dixon,San Francisco,CA,hat,60,red,2014-05-09,9731,Reichel and Sons
+Thomas,Oliver,Santa Barbara,CA,hat,100,green,2016-04-12,9733,Friesen LLC
+Gloria,Roberts,Bakersfield,CA,hat,30,blue,2016-10-28,9735,"Roberts, Lynch and Nitzsche"
+Joan,Elliott,Corona,CA,hat,60,red,2014-01-22,9740,Hauck-Gerlach
+Thomas,Martin,Sacramento,CA,shirt,90,blue,2016-05-04,9747,"Harris, Braun and Wisozk"
+Daniel,Williamson,San Francisco,CA,shirt,30,red,2014-05-24,9758,Hand LLC
+Matthew,Chavez,San Jose,CA,hat,50,blue,2014-06-11,9762,Metz-Bartoletti
+Norma,Simpson,North Hollywood,CA,hat,90,red,2016-06-22,9767,
+Sarah,Allen,Anaheim,CA,hat,80,blue,2016-08-02,9774,
+Sandra,Bryant,Newport Beach,CA,hat,80,red,2016-07-07,9812,
+Robin,Wheeler,Los Angeles,CA,hat,90,green,2015-12-23,9817,Hammes-Okuneva
+Gerald,Ortiz,Bakersfield,CA,hat,90,green,2014-08-30,9826,Rohan Inc
+Betty,Hall,Oakland,CA,shirt,100,blue,2015-10-17,9831,"Schinner, Emard and Osinski"
+Ryan,Webb,Burbank,CA,hat,10,green,2014-05-23,9838,Hickle and Sons
+Bobby,Lynch,Oakland,CA,shirt,80,green,2014-08-29,9844,"Predovic, Witting and Koepp"
+Ronald,Gibson,Sacramento,CA,hat,80,blue,2014-02-17,9852,
+Kathryn,Day,Sacramento,CA,hat,90,blue,2016-03-16,9861,Beahan Inc
+Mildred,Ortiz,San Francisco,CA,hat,70,blue,2016-03-29,9864,"Vandervort, Larson and Ferry"
+Philip,Arnold,Glendale,CA,hat,40,green,2014-01-03,9865,Renner-Corkery
+Todd,Richards,San Jose,CA,hat,100,red,2015-06-20,9869,Schulist-Mills
+Sandra,Lawrence,Van Nuys,CA,shirt,90,green,2016-04-09,9877,Nikolaus-Mann
+Stephanie,Ruiz,Palo Alto,CA,hat,90,green,2015-03-29,9886,"Sanford, Blick and Beer"
+Maria,Morgan,Moreno Valley,CA,shirt,100,green,2015-10-08,9892,
+Joyce,Henry,San Jose,CA,hat,80,green,2015-02-28,9895,"Lockman, Conroy and Lind"
+Lori,Burke,Los Angeles,CA,shirt,30,red,2014-10-21,9908,Fisher LLC
+Jimmy,Price,San Francisco,CA,shirt,80,red,2013-11-15,9917,Bartell-Armstrong
+Matthew,Robinson,San Francisco,CA,hat,90,blue,2014-07-11,9921,Gerhold and Sons
+Terry,Grant,San Jose,CA,hat,30,red,2015-04-17,9938,"Wiza, Rau and Hauck"
+Kelly,Burns,San Francisco,CA,hat,40,green,2014-09-14,9940,Denesik-Balistreri
+Cheryl,Kim,Pasadena,CA,shirt,100,red,2015-01-18,9941,Pagac-Harris
+Rebecca,Hayes,San Francisco,CA,hat,50,blue,2015-06-06,9942,Breitenberg-Lesch
+Denise,Lawson,San Francisco,CA,shirt,80,green,2015-07-25,9943,Mohr and Sons
+Joe,Owens,San Francisco,CA,shirt,40,green,2015-09-28,9955,"Rippin, Olson and Weimann"
+Todd,Fields,San Diego,CA,shirt,80,blue,2016-11-09,9969,Rodriguez-McGlynn
+Doris,Jenkins,San Francisco,CA,shirt,70,blue,2015-05-27,9972,"Shields, Lind and Legros"
+Louise,Howard,Oakland,CA,shirt,90,green,2015-06-07,9976,"Armstrong, Hoeger and Walker"
+Ryan,Holmes,San Francisco,CA,hat,100,red,2015-02-07,9980,Kuhn-Emard
+Philip,Brown,Van Nuys,CA,hat,90,green,2013-11-17,9985,Kemmer LLC
+Irene,Crawford,Huntington Beach,CA,hat,80,red,2014-02-11,9986,"Botsford, Kirlin and Brekke"
+Ernest,Fowler,Concord,CA,hat,50,red,2015-04-17,9995,
+Dennis,Gordon,Richmond,CA,shirt,70,blue,2015-11-12,10011,Beier-Wintheiser
+William,Martinez,Concord,CA,hat,70,green,2014-02-24,10012,Roberts and Sons
+Angela,Elliott,Fullerton,CA,shirt,90,red,2014-12-03,10013,Doyle-Murazik
+Deborah,Johnston,Pasadena,CA,hat,20,blue,2015-05-20,10032,
+Frank,Gutierrez,San Jose,CA,shirt,30,green,2016-10-02,10033,Stehr LLC
+Justin,Snyder,San Francisco,CA,shirt,80,green,2016-02-23,10039,Littel-Wilderman
+Norma,Robertson,Stockton,CA,shirt,100,red,2015-05-01,10043,"Mante, Powlowski and Ryan"
+Daniel,Woods,Glendale,CA,shirt,70,blue,2016-06-27,10062,Weber Inc
+Bruce,Ross,Stockton,CA,hat,50,red,2014-12-06,10070,"Schaden, Grant and Hoeger"
+Theresa,Fox,Sacramento,CA,hat,80,blue,2015-05-12,10071,Zieme Group
+Keith,Perez,Long Beach,CA,hat,30,green,2016-01-29,10072,"Crooks, Roberts and Beahan"
+Michael,Wagner,Santa Barbara,CA,shirt,80,red,2014-06-03,10073,Wilkinson-O'Keefe
+Kathy,Ellis,Simi Valley,CA,hat,80,blue,2014-03-28,10074,Treutel Inc
+Charles,Green,Los Angeles,CA,hat,90,green,2014-12-27,10081,Lehner-Lubowitz
+Benjamin,Hernandez,Garden Grove,CA,hat,80,green,2014-10-29,10093,Wintheiser and Sons
+Raymond,Stephens,Modesto,CA,shirt,70,red,2015-08-13,10097,Dare-Muller
+Linda,Rivera,San Diego,CA,hat,50,blue,2015-05-18,10104,Lehner-Jenkins
+Irene,Gibson,Sacramento,CA,shirt,80,blue,2014-02-28,10107,"Glover, Batz and Williamson"
+Michelle,Roberts,Long Beach,CA,hat,60,green,2015-05-29,10108,"Vandervort, Paucek and Sipes"
+Ruth,Alvarez,Concord,CA,shirt,20,green,2014-06-09,10141,Schiller LLC
+Sean,Webb,Los Angeles,CA,hat,70,red,2013-11-17,10151,Stark LLC
+Patrick,Barnes,Redwood City,CA,shirt,40,green,2015-08-01,10168,Russel-Bartoletti
+Edward,Hicks,Bakersfield,CA,hat,10,red,2014-02-04,10187,"Parker, Block and Hyatt"
+James,Little,Fresno,CA,shirt,30,blue,2014-06-18,10194,Simonis Inc
+Kenneth,Gomez,Van Nuys,CA,shirt,90,green,2016-06-20,10195,
+Helen,Stanley,Van Nuys,CA,shirt,100,red,2016-07-01,10196,"Swaniawski, Weber and Rolfson"
+Edward,Sanchez,San Francisco,CA,hat,100,red,2014-01-30,10208,Koch-Hudson
+Barbara,Bryant,San Diego,CA,hat,90,red,2014-10-01,10220,Jerde Inc
+Tammy,Wagner,Fresno,CA,hat,90,green,2015-10-20,10222,
+Steve,West,San Francisco,CA,shirt,70,blue,2015-11-23,10230,"Rice, Crist and Kulas"
+Barbara,Howard,Sacramento,CA,shirt,90,red,2014-06-14,10241,Collier and Sons
+Ruby,Burton,San Francisco,CA,hat,30,red,2014-10-07,10244,"Kris, Hackett and Murray"
+Ashley,Rice,Irvine,CA,hat,50,blue,2015-03-14,10248,"Heidenreich, Renner and Schulist"
+Irene,Morgan,San Francisco,CA,hat,100,blue,2014-09-08,10257,"Hermann, Keeling and Ernser"
+Sean,Reed,Santa Rosa,CA,shirt,80,red,2016-03-30,10274,Huel-Littel
+Keith,Pierce,Fresno,CA,hat,90,green,2015-06-25,10276,
+Timothy,Powell,Stockton,CA,shirt,10,red,2013-12-18,10298,Morissette-Auer
+Ashley,Reid,San Diego,CA,shirt,90,green,2016-01-29,10303,Runolfsson-Emard
+Patrick,Watkins,San Francisco,CA,hat,90,blue,2014-04-27,10314,Gutmann LLC
+Billy,Banks,San Francisco,CA,shirt,90,green,2016-08-27,10315,Bauch-Kuhn
+Mildred,Crawford,Burbank,CA,hat,100,green,2014-10-26,10363,Muller Group
+Jason,Mitchell,San Francisco,CA,shirt,70,red,2016-04-01,10364,Krajcik-Gorczany
+Jimmy,Gutierrez,San Jose,CA,hat,20,blue,2015-01-05,10377,"Waelchi, Gerhold and Cremin"
+Carlos,Hanson,San Francisco,CA,shirt,50,red,2014-01-26,10382,
+Phillip,Stone,Inglewood,CA,hat,50,green,2014-07-25,10396,"O'Conner, Zboncak and Hyatt"
+Margaret,Myers,Salinas,CA,hat,80,blue,2015-10-18,10398,Toy-Hills
+Ashley,Franklin,Ventura,CA,shirt,90,green,2014-11-01,10408,Bahringer LLC
+Donna,Hernandez,Sacramento,CA,shirt,80,blue,2016-03-21,10413,Schmitt-Swift
+Carol,Robinson,Fresno,CA,shirt,80,green,2015-01-20,10420,"Bauch, Rohan and Davis"
+Lois,Cruz,Fullerton,CA,hat,90,blue,2016-03-20,10437,Reichert-Schultz
+Carlos,Chapman,Los Angeles,CA,hat,30,red,2016-03-27,10454,"Bernier, Kling and Lindgren"
+Anna,Jackson,Visalia,CA,hat,80,blue,2013-11-30,10458,Jakubowski Inc
+Maria,Palmer,San Francisco,CA,hat,80,red,2016-04-04,10460,Williamson-Bradtke
+Brandon,Jackson,Alhambra,CA,shirt,90,green,2015-04-15,10480,Wyman-Hintz
+Jimmy,Simmons,San Francisco,CA,hat,70,blue,2015-05-19,10482,Hayes-Wyman
+Donald,Woods,San Jose,CA,hat,70,green,2016-04-26,10486,Adams Inc
+Marilyn,Payne,Los Angeles,CA,hat,90,green,2014-10-15,10489,Torp-Kilback

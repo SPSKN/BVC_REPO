@@ -1,0 +1,2 @@
+#Declare Variables
+day_of_week

@@ -1,0 +1,68 @@
+.Middle{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30%;
+    padding-bottom: 80%;
+    padding: 2%;
+}
+
+.Left{
+    align-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    overflow: auto;
+    float: left;
+    width: 20%;
+    background-color: black;
+    color: aliceblue;
+    
+}
+.Right{
+    align-content: flex-end;
+    align-items: flex-end;
+    text-align: center;
+    overflow: auto;
+    float: right;
+    width: 20%;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 5pt;
+    border-color: aliceblue;
+    border-style: solid;
+    margin: 5pt;
+    border-radius: 5px;
+   
+}
+ul{
+    align-items: center;
+  
+}
+
+.Top{
+    border: 5pt;
+    background-color: black;
+    color: aliceblue;
+    padding: 5pt;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+footer{
+    background-color: dimgrey;
+    color: aliceblue;
+    overflow: hidden;
+    text-align: right;
+    align-content: flex-end;
+    align-items: baseline;
+    
+    
+}

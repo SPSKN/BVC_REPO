@@ -1,0 +1,2 @@
+EmployeeId,LastName,FirstName,Title,ReportsTo,BirthDate,HireDate,Address,City,State,Country,PostalCode,Phone,Fax,Email
+4,Park,Margaret,Sales Support Agent,2,1947-09-19 00:00:00,2003-05-03 00:00:00,683 10 Street SW,Toronto,ON,Canada,M5P 2N7,+1 (403) 263-4423,+1 (403) 263-4289,margaret@chinookcorp.com

@@ -1,0 +1,1 @@
+select first_name|| ", " || last_name as 'Full Name', quiz_points,team from people WHERE team='red';

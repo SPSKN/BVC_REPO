@@ -1,0 +1,1 @@
+select first_name, last_name, state from people where state like 'C%';

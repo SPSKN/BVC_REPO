@@ -1,0 +1,42 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+ <style>
+    
+     .pixels{
+         width:200px;
+         height:50px;
+        background: teal;
+         
+     }
+     .percent{
+         width: 50%;
+         height: 50%;
+         background: olive;
+         
+     }
+     p{
+         
+         background-color: silver;
+         width: 200px;
+         height: 100px;
+         overflow: auto;
+        
+     }
+     
+
+    
+    
+    
+    
+    </style>
+</head>
+<body>
+    <div class="pixels">
+    Pixels - 200px by 50px
+    </div>
+    <div class="percent">
+    Percent - 50%</div>
+    
+</body>
+</html>

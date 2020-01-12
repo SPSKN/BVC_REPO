@@ -1,0 +1,9 @@
+/*
+Course code : DATA1201
+Term/Year : Wint2018
+Assignment code: A4
+Author : Scott Patterson, Skylar Balcom
+BVC username :s.patterson528, s.balcom361
+Date created : 2018-03-27
+Description :A4
+*/

@@ -1,0 +1,7 @@
+Course code : DATA1201
+Term/Year : Winter 2018
+Assignment code: 
+Author : Scott Patterson
+BVC username : s.patterson528
+Date created : YYYY-MM-DD
+Description :

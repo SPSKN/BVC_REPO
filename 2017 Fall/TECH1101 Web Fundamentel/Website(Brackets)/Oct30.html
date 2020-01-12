@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<hmtl>
+<head>
+    <style>
+        body{
+            background-color:fuchsia;
+            color:yellow;
+        }
+        fieldset{
+            background-color:forestgreen;
+            font-weight: bolder;
+        }
+        legend{
+            
+        }
+        
+    </style>
+    
+    </head>
+
+<body>
+
+    <form method="post" action="process.php">
+        <fieldset>
+            <legend>Details</legend>
+            <p>
+               <label>
+                Title
+                   </label>
+                <input type="text" name="title"/>
+                <textarea name="blocktext"></textarea>
+                <input type="password" name="pass"/>
+            </p>
+           <hr>
+            <p>
+                <label>Country</label>
+                <select name="where">
+                    <optgroup>Choose a country</optgroup>
+                    <option>Canada</option>
+                    <option>Finland</option>
+                    <option>United States</option>
+                </select>
+            </p>
+            <hr>
+            <label>Continent</label>
+            <input type="radio"/>
+            <input type="radio"/>
+            <input type="radio"/>
+            <input type="radio"/>
+            
+            
+        <input type="Submit"/>
+        </fieldset>
+    
+    
+    
+    </form>
+  
+    
+    </body>
+
+</hmtl>
