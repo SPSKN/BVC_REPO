@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "715122089618",
+    "firebase_url": "https://sodv-firebase-scott.firebaseio.com",
+    "project_id": "sodv-firebase-scott",
+    "storage_bucket": "sodv-firebase-scott.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715122089618:android:5d06fbe74e6ad60cb2d04b",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715122089618-mm7gbmsug48oaen2cq07rvljk9l3c62d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase",
+            "certificate_hash": "4a66be5fc8234825daf7e31a965fb09155410403"
+          }
+        },
+        {
+          "client_id": "715122089618-cbcchkprv23n1u1odc6s8rd5lihuop2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyFGB63wiTlHj-uXv6CwkY075AstWCMaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715122089618-cbcchkprv23n1u1odc6s8rd5lihuop2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

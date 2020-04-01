@@ -1,0 +1,46 @@
+In Class Activity
+*****************
+ArrayList<Double> dList = new ArrayList<>();
+
+Public void add(int index, double value)
+{
+	int i = index;
+	double v = value;
+	dList.set(index , value);
+
+}
+
+Public void remove(int index)
+{
+	int i = index;
+	dList.remove(i);
+
+}
+
+Public double get(int index)
+{
+	double r = 0.0;
+	int i = index;
+	r = dList[i];
+	return r;
+}
+
+Public int size()
+{
+	int s = dList.size(); 
+	return s;
+
+}
+
+
+
+
+****************
+2.2 Q1-3
+Q1
+public static
+
+
+
+
+

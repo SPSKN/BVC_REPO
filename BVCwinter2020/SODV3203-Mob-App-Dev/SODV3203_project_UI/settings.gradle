@@ -1,0 +1,2 @@
+rootProject.name='SODV3203_project_UI'
+include ':app'

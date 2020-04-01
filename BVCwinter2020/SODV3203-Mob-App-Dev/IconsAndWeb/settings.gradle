@@ -1,0 +1,2 @@
+rootProject.name='IconsAndWeb'
+include ':app'

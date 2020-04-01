@@ -1,0 +1,2 @@
+rootProject.name='gla2.1'
+include ':app'

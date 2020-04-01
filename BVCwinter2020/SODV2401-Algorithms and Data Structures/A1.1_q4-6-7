@@ -1,0 +1,32 @@
+-4*6*7
+
+
+4. 
+Abstract Class Computer
+
+ protected String manufacturer;
+ protected String processor;
+ protected double ramSize;
+ protected int diskSize;
+ protected double processorSpeed;
+ 
+ public abstract double costBenefit(double cost){
+  
+ 
+ 
+ }
+ 
+ ///
+ ///
+6.
+public class Circle Extends Shape
+
+private double Radius;
+
+ ///
+ ///
+7. Array[1,2,3,1]
+
+
+ ///
+ ///

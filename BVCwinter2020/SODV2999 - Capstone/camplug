@@ -1,0 +1,172 @@
+camplug-cloud
+@Nick created this channel on January 17th. This is the very beginning of the camplug-cloud channel. Description: Cam-Plug Cloud Software (edit)
+ Add an app Add people
+
+simerpreet jassal  11:03 AM
+joined #camplug-cloud along with 3 others.
+
+Afshin Hamed  11:39 AM
+Hi Team, looking forward to working with you! Please let us know what questions you have in mind and we will try our best to address it.
+
+Scott Patterson  11:44 AM
+Thank you very much, sir!
+
+Nick  8:33 AM
+Good morning everyone. I found some useful stuff on MQTT https://www.hivemq.com/docs/4.2/hivemq/introduction.html. We are not using this product but the MQTT protocol is well documented on this site. Currently we are favoring AWS as a broker host. We'll also use AWS as an enterprise records store (likely dynamodb), a web host for the dashboard, and an auth provider (likely cognito).  I'm interested in learning about your design and ideas.  What do y'all have so far?
+
+Scott Patterson  11:44 AM
+Good Morning Nick, so far my team has gotten the rough drafts for most of our new documents done including the UML which will be pictured below.
+We are looking to get the finished Storymap and the Wireframes to you by the end of this week.
+If you would like to give some early feedback on them, that would extremely helpful.
+Thanks very much!
+3 files 
+IMG_8242.HEIC
+1 MB QuickTime Movie— Click to download
+
+
+IMG_4830.HEIC
+910 kB QuickTime Movie— Click to download
+
+
+IMG_6385.HEIC
+980 kB QuickTime Movie— Click to download
+
+
+
+Nick  12:48 PM
+This all sounds great Scott, and thank you for taking leadership of your team.  Cannot read HEIC format, all I get are still images.  Looks like a whiteboard sketch, let's wait till you have a professional deliverable. The top item on my list is a story-mapped product backlog, is that on deck? I'll be using that in meetings with project sponsors and other stakeholders, so I'm hoping to see that soon. I also see a firebase reference and I think our side is favoring an all-aws approach, do you have any experience with amazon web services? They provide significant depth in IOT, MQTT, QOS 2, and scaling that we need. Uml sketches is not necessary on this end since it means very little to business sponsors, but if it's part of your side's workflow that's cool. Wireframes are much more valuable in my chats with sponsors, especially since we are seeking funding for r&d on this project.
+
+Scott Patterson  5:01 PM
+Understood Nick, we will focus on the Story-map and  Wireframes  for this week. We do have experience with amazon web services, the only reason firebase was referenced is because we weren't told if we had a backend. However going fully AWS won't be a problem for the team. And we look forward to have more discussions in the future.
+
+Nick  7:59 AM
+Great to hear.  I'm looped in through Slack as your team works through the backlog so don't hesitate to fire over queries as they arise.  I also know MQTT quite well.  Good luck.
+
+Scott Patterson  12:20 PM
+Hello Nick, hope your day is going well. We are working on the final touches for the Wireframe and Story maps. I will have them to you by end-of-day. We planning on having a sim of a MQTT broker by next week.
+
+Scott Patterson  8:42 AM
+Good day everyone, I sent Nick an email with a PDF containing the Wire-frames and Storymap. Hope you have a great weekend!
+
+Nick  12:36 PM
+Thanks Scott.  Trying to concentrate engineering discussions on this channel.  Here are answers to Ms. Dima's last email:
+
+Nick  12:41 PM
+1/ Does the client want a GPS function to provide live feed locations of each plug?
+I believe this is a user story in the backlog.  The telemetry controller, as you know, will track the panel location and thus all plugs associated to the panel.  Plugs are not location-aware.  The panel location will be sent via MQTT, probably as an independent topic.  For more detail please see page 4 of the project background, under "panel telemetry".
+2/
+> - How does the client want to authenticate user login and
+> registration? (I already told them that every one that is registered
+> in the company database will have access if they are connected to the
+> internal wifi for an example)
+Whoa, where did that come from? That would be a huge security gap; please don't make up new requirements Ms. Dima!!! Users should be authenticated using a standard name/password just like any other cloud service.  There is no requirement for AD or SSO.  There will be several different user roles/entitlements and I believe this should be clear from the user stories and background information.  The obvious choice to me would be to use AWS Cognito.
+3/
+> - From where we will get the data to use? (We can build our own if we
+> have sample data already) - Could you provide us a sample data for
+> simulating?
+You'll have to cook up sample data as we do not have the panel telemetry controllers designed yet. The data points are not mysterious: temperature, location, and a variety of faults, so it should be easy to task someone on your team to build out a standard dataset. Best to follow conventional MQTT design patterns.
+12:45
+Got the wireframes/storymap and will devote time to review shortly.  A pro tip Scott & team: why not name engineering documentation files something meaningful (i.e. relevant to content) to help keep everyone organized?
+
+Scott Patterson  6:43 PM
+Excellent. Thanks Nick for taking the time to go over the questions. Look forward to hearing from you about the Wireframes and Storymap
+
+Nick  10:04 AM
+Okay, finally got time to study this. I appreciate the effort your team put in here, and it is helpful. I think we will be tight on time for your team to deliver a full front end website, app, and cloud MQTT aggregator. Plus, there are many unknowns about what our users/the market truly seeks that we need to analyze. I'm going to change course a bit here and have your team focus exclusively on the MQTT aggregator subsystem. This way we will have working software we can use to test our telemetry controllers, when they are ready. This means you will not need to design or implement authentication, user profiles, a permission/privilege stack, notifications, alarms, reporting, or much of the commercial user experience website. Once we have the MQTT broker working and aggregating in AWS we can spend any remaining time building test pages against the DynamoDB data.
+For what it's worth I'm attaching our feedback notes below. You do not need to take any action on these items, but as we were studying your work we came up with points to be aware of. I think the big surprise was that we didn't see any story map, which would have helped drill out missing workflow items. Refining user stories is difficult but you can't just skip it!
+So, to move forward: with our value focussed on getting AWS and MQTT to properly collect IOT messages, can we please see these deliverables:
+ - a MQTT broker on AWS
+  - some kind of software test suite that can send a *wide* variety of simulated messages and test data
+  - a DynamoDB implementation that collects and indexes messages
+  - a web API that provides a means to query the message database (company, site, user, message, severity, plug, date range would be useful filters to start with)
+  - a set of simple web pages to test the API
+I'm going to treat this work as an architectural spike in our project, meaning that we will integrate your findings in our commercial system in a later sprint. This means that you don't have to worry about presentation -- CSS, fluid design, platform variations, notification push tech are all irrelevant for now.  We'd like you to focus on build a POC MQTT aggregation system, and then if there is time left in our budget we can work on other stories/features. 
+Hope that all makes sense. I'll attach my team's feedback momentarily. When able, can you kindly let us know when the deliverable items above can be reviewed?  Thank you.
+
+Nick  10:11 AM
+Cam-Plug, Student Storyboard & Wireframes, Feedback.txt 
+*** FYI Only, please see preceding notes on project intervention and revised plan.
+Notes On BVC Student Team Work, Cam-Plug Cloud Wireframes
+(in no order and pardon terseness)
+Where is the story map?  We were hoping to see an Agile story map showing user stories organized by workflow.  User stories should be factored/refined, as you know from your Agile training.  Having a story map and refined user stories makes it much easier to ensure you are not missing any workflow requirements or journeys (which you are, see below).  If I am misunderstanding your training please let me know but I was told your team had taken an Agile software dev course and was applying Agile best practice on this project.
+Wireframes
+Workflow looks ok and reasoned.  Thank you for doing a professional job here, although there are some missing items that a story map would have surfaced.
+It looks like there will be a lot of low-value navigation actions to make use of this approach.  A user needs to click on something to drill down to a successive layer of detail.  This will disorient users who are not familiar with the tree -- and face it, users will not take the time to study this.  I understand this navigation approach is mobile-friendly, but I'd like to see more detail directly on the landing page.  Why not show a dashboard-style landing page with a table of [a company's] sites, and against each site show relevant attributes like registered subassembly count (break out plugs and panels separately), alert notifications, flag notifications, and a squiggle chart showing aggregate loads / average temps?  Even on mobile portrait this is reasonable.  Users should also have the option to view all assets (plugs, panels, assemblies) irrespective of a site.  Don't forget not all assets will be physically on a site or logically attached to the site.
+Should have standard search/sort/filter mechanism on all lists.  It needs to be dead easy to find a part *without any navigation*.
+A note on the moisture data point -- it will not be encoded or reported as a percentage like RH or AH.  It's strictly a latching fault condition if moisture is detected.
+I don't see a way to create/update/delete a site.  A site will have attributes like name, street address, location, floor, delivery notes.  You could use location information to autocreate a geofence.  Once this is done [and it really needs to be possible] then assets can automatically self-register to a site once they arrive at a location, saving the user from doing it manually (they won't bother).  This is a big selling feature for us: the system uses location reporting to automatically update its own records.  How to create the automatic site geofence?  I leave that to you experts.
+With the "create a subassembly" workflow keep in mind that each panel can identify all attached plugs and include this in a telemetry update.  Have you considered the scenario where the field is reporting one configuration and the user is attempting to create a different one?  The field should always be the source of truth for configuration and reported location.  However some plugs/panels may be in inventory but not deployed.  They may be flagged for repair, tagged out, or simply waiting to be deployed.  Ideally your SEM user can build panel assemblies that are durable (i.e. persistent) unless modified or reported changed in the field.  You should also account for plugs for which the status is not known ... an electrician might pull a plug from a panel and throw it in a storage bin somewhere, so we will lose tracking on the plug but still know where it used to be.  For auditing and warehousing, you should allow plugs and panels to be scanned with a phone; these scans should update location records to the best available feature (i.e. lat/long/elev -> address -> site -> floor).  I'm hoping to see your enterprise records management education applied here -- use blind keys, retain all scan transactions, use a temporal database schema, do not allow true deletes, record the three W's against each transaction for audit.  Your instructor can guide you here I'm sure.
+Not clear about the "location" element for on "create a subassembly", last frame?  
+The "create a subassembly" workflow shows me a list of sites, and if I click on a site I get a list of panels/plugs.  I expected to see a list of existing subassemblies first, and then a way to create/edit/delete them.
+All panels and plugs will carry a serial number.  This number is electronically addressable and human-readable and barcoded for scanning.  It should be displayed alongside the item in all tables.  We'll be exploring ways to scan this in the field for auditing/inventory.
+Site lists should also show site attributes (location, etc) and any alarms/advisories.
+The "Add/Update/Remove Hardware" workflow -- you should be able to add a plug and panel into company inventory independent of any job site.  They own the assets no matter where they are.  Some assets may not even be on a job site -- they might be collected into inventory for off-season, in transit around the world to new site, or just gathering dust for whatever reason.  It is important to differentiate between registering assets and tracking them.  We want to be able to offer a report to our clients of all assets, and then break them out by class of service and location.  So don't tie registering assets to a site.  In addition, for our major customers we will probably register their assets into their account on their behalf.
+Same general comment for removing assets from a site.  It should be automatic (geofence) but if they really want to do it manually, it needs to be fluid.  It is very likely they will want to grab a whole bunch of assets at once and move them from one site over to another site (or into inventory somewhere).  I think this would be quite painful with the proposed screen flow.
+Have you considered how to handle location reports from an asset that are not registered to a client (edge case)?
+How do you propose to handle assets that have gone dark and are not reporting, or are reporting but without a  location?
+For the "Flag Panel/Plug" journey -- again, you are forcing the user to pick a site first.  They should be able to search for the actual plug by entering a S/N or scanning the barcode.  Otherwise you are expecting users to be able to identify which plug is on which site -- easy if you are standing next to it, but hard if you are in an operations office with four dozen sites around the world and you get an email from "Joe" about a smoking plug.
+"Notification if female plug detects ground" -- I think you mean "ground fault".  Look up GFCI.  A ground fault is not the absence of a ground connection, it is a condition where the electrical energy flowing into a plug does not match the electrical energy flowing out of the plug (hence some is flowing along another path to ground, possibly through a person).  A ground fault is a symptom of a potentially dangerous situation.  Your bathroom has a GFCI plug if you look closely (but not too close!).
+Missing Flows
+Ability to see a list of notification messages and acknowledgements for a specific plug, a panel, a site, a user.
+Ability to set a message delivery flow such that messages are escalated to different users until positively acknowledged.
+Ability to set message filters, SMS contact hours, minimum retry counts.
+Ability to administrate sites (add/update/delete).
+Ability to administrate users (add/update/delete).  Vitally important, as you can appreciate.  
+Authentication flow. 1FA? MFA? 1FA with option of MFA? What is your proposed approach?
+Notifications!  I don't see any, and this is a big deal.  How will a notification message appear, on SMS and in the web app?  How do I acknowledge a message?  How do others, who may receive the same notification, learn that it has been acknowledged?  How do I see what notifications were sent, to whom, when, and with what outcome?  This is a fundamental value point in our offering so we need it addressed.  Don't forget that notifications should follow the language & DND settings of the recipient.
+The permission/privilege flow is unclear to me.  These roles are not canonical so I don't want to assume everyone uses them exclusively or calls them by the same names.  But they exist in one form or another.  We need some analysis on users vs roles vs privileges to come up with a design.  If this is out of scope for you (time) then my advice is to use fine-grained logical privileges that we can subsequently arrange into groups (e.g. "can add plug to inventory", "can attach plug to panel", etc).  Don't fall into the trap of assuming role-based privileges are exclusive (e.g. the foreman might also be the equipment manager guy).
+Collapse
+
+
+
+
+Scott Patterson  10:25 AM
+Hello Nick, I will get back to you tomorrow once the team and I have talked about what it will take to get this all done. We already have the MQTT broker on AWS and we are thinking of using Node-RED as a way to simulate the data.
+If you know of a better test suite to use please let us know.
+Thank you!
+
+Scott Patterson  4:26 PM
+Good afternoon Nick. After meeting with the team, and to have cadence with our sprints, we agreed that we will have the deliverables done by February 14.
+I heard rumors that you will swing by the college to check in with us next week. If so, would you have time to answer a few questions about the subsystem?
+
+Nick  6:19 PM
+I'm in Vancouver!  Afshin might join you, I'm not sure.
+
+Scott Patterson  7:39 PM
+Okay Nick. No worries.
+
+Nick  10:47 AM
+Hey can one of you guys/girls add your instructor to this channel?
+
+Scott Patterson  6:58 PM
+We dont have access to add people to the workspace.
+
+Scott Patterson  10:07 AM
+Hello Nick, we have made progress on our side. We have an API fetching data from a DynamoDB. A big question we have is for the aggregation system. Will the system be handling data between the broker and DB or... will the system be be a subscriber to the broker and just update the DB? We would like to start working on this by next week and have a plan to work on it during our break (Feb 17-21).
+Thank you (edited) 
+
+Nick  10:43 AM
+Hey Scott & team, thank you for the update and your continued hard work on this. To my knowledge AWS IOT does not support QOS 2 subscriptions, they only do QOS 0 and QOS 1.  This may impact your direction. At the end of the day we are looking for a way for our panels to send updates to an MQTT broker, which ensures they end up in persistent storage somehow. DynamoDB makes sense for this as do lambda functions in the middle -- we'll eventually need to interpret updates for alarm/alert conditions. Getting the data back out of storage is relatively straightforward, and I bet this is the API your team has made. Is it serverless through lambda?
+One of the user stories requires communication the other way -- a panel can be "tagged out" remotely if there is a reason it should not be used. This lights up a caution lamp on the telemetry controller but doesn't physically stop the panel from being used of course. This requirement means there needs to be an API that will send an MQTT message in the other direction (QOS 2 would be really handy here but we may have to stick with QOS 1).
+You are basically building an elaborate MQTT-based datalogger. If we can get that built, we have an endpoint to connect our telemetry controllers to. Then we can start layering in authentication/authorization, access control, push, and the nontrivial logic that supervises notification delivery. Fun stuff, and highly relevant. Great chance for you all to thread your way through the AWS stack, you could consider pursuing certs after this is done.
+
+Nick  10:51 AM
+Speaking of done, at some point we'll need to replicate your work on a camplug AWS account. That means setting up all the production services and configuration all over again in a fresh environment. It might be worthwhile to have someone on your team create and test a deployment guide for this purpose, just a thought. Also, does anybody over there have any experience with lorawan?
+
+Dima Marachi  12:45 PM
+joined #camplug-cloud.
+
+Scott Patterson  11:21 AM
+Hello Nick, I have planned a meeting with the team today and to go over everything. We dont have experience with LoraWAN but we can look into it.
+
+Kamalpreet Kaur  8:37 AM
+joined #camplug-cloud along with 4 others.
+
+Scott Patterson  11:06 AM
+Hello Nick, since no one wants to share their account we will need camplugs AWS account. Bowvalley College's option is Azure. Could you please provide us with an AWS account. Thanks.
+
+Nick  9:23 AM
+Hi Scott.  I think your instructor should be able to help you out with resourcing.  We can't link you in to our AWS, and we don't need to share yours; we'll just need to see it in action and eventually get a detailed deployment guide.
+
+Scott Patterson  1:04 PM
+Hi Nick thanks for getting back to me, I will talk to my instructor.
